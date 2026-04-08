@@ -1,9 +1,9 @@
 # 📊 Employee Analytics Dashboard (SQL + Tableau)
 
 ## 🚀 Project Overview
-This project presents a **data-driven Employee Analytics Dashboard** built using **SQL Server** and **Tableau Public**. It provides actionable insights into workforce distribution, employee performance, and organizational trends.
+This project delivers a **comprehensive Employee Analytics Dashboard** built using **Microsoft SQL Server** and **Tableau Public**, focused on analyzing workforce trends, gender distribution, and salary insights.
 
-The goal is to simulate a **real-world HR analytics use case**, enabling stakeholders to make informed decisions regarding hiring, retention, and employee engagement.
+It simulates a **real-world HR analytics use case**, helping organizations make **data-driven decisions** related to workforce planning, diversity, and compensation.
 
 ---
 
@@ -12,84 +12,81 @@ The goal is to simulate a **real-world HR analytics use case**, enabling stakeho
 
 ---
 
-## 🧠 Business Problem
-Organizations often struggle with:
-- Lack of centralized employee insights
-- Difficulty tracking workforce trends
-- Inefficient decision-making in HR operations
+## 🧠 Business Questions Answered
+This dashboard is designed to answer key industry-relevant HR questions:
 
-This project solves these by creating a **centralized analytics layer**.
+- 📌 What is the **year-wise breakdown of male vs female employees** starting from 1990?
+- 📌 What is the **ratio of male to female managers across departments** each year?
+- 📌 What is the **average salary comparison between male and female employees** (filtered by department) until 2002?
+- 📌 What is the **average salary distribution by gender across departments within a selected salary range**?
 
 ---
 
 ## 🏗️ Tech Stack
 - **Database:** Microsoft SQL Server  
 - **Visualization:** Tableau Public  
-- **Query Language:** SQL (Joins, Window Functions, Aggregations)  
-- **Data Processing:** ETL using SQL  
+- **Language:** SQL  
+- **Concepts Used:** Joins, Window Functions, Aggregations, CASE Statements  
 
 ---
 
 ## 📂 Dataset Description
-The dataset includes:
-- Employee demographics (Age, Gender, Department)
-- Job roles & salary details
-- Performance metrics
-- Hiring and attrition data
+The dataset consists of:
+- Employee demographics (Gender, Department, Hire Date)
+- Job roles (including managerial roles)
+- Salary records over time
+- Department-level data
 
 ---
 
 ## ⚙️ Key Features
-- 📌 **Department-wise employee distribution**
-- 📌 **Salary & compensation analysis**
-- 📌 **Performance tracking**
-- 📌 **Gender diversity insights**
-- 📌 **Hiring trends over time**
-- 📌 **Interactive filters & drill-down capabilities**
+- 📊 **Gender Diversity Analysis** (year-wise trends)
+- 👨‍💼 **Managerial Composition Insights**
+- 💰 **Salary Comparison by Gender & Department**
+- 🎯 **Dynamic Filtering** (Department & Salary Range)
+- 📅 **Time-Series Analysis (1990 onwards)**
 
 ---
 
-## 🛠️ SQL Concepts Used
-- Complex **JOIN operations**
-- **Window Functions** (ROW_NUMBER, RANK, etc.)
-- **CASE statements** for categorization
-- Aggregations & Grouping
-- Data cleaning and transformation
+## 🛠️ SQL Techniques Used
+- Complex **INNER & OUTER JOINS**
+- **Window Functions** (ROW_NUMBER, RANK)
+- **CASE WHEN** for categorization
+- Aggregations (**AVG, COUNT, SUM**)
+- Time-based filtering & transformations
 
 ---
 
 ## 📊 Dashboard Highlights
-- Fully interactive dashboard
-- Business-friendly KPIs
-- Visual storytelling with charts & graphs
-- Drill-down analysis for deeper insights
+- Interactive filters for **department and salary range**
+- Clear comparison visuals for **male vs female employees**
+- KPI-driven layout for quick insights
+- Drill-down capabilities for deeper analysis
 
 ---
 
-## 📈 Insights Generated
-- Identified departments with high attrition risk
-- Salary distribution trends across roles
-- Workforce diversity patterns
-- Performance vs compensation correlation
+## 📈 Key Insights
+- Gender distribution trends across years
+- Department-wise managerial gender gaps
+- Salary disparities between male and female employees
+- Impact of department and salary bands on compensation trends
 
 ---
 
 ## 🧩 Project Workflow
-1. Data collection & understanding  
-2. Data cleaning using SQL  
-3. Writing optimized queries  
-4. Importing data into Tableau  
-5. Designing interactive dashboard  
-6. Publishing on Tableau Public  
+1. Data extraction and understanding  
+2. Data cleaning and transformation using SQL  
+3. Writing optimized analytical queries  
+4. Data visualization using Tableau  
+5. Dashboard design and interactivity implementation  
+6. Publishing to Tableau Public  
 
 ---
 
-## 💡 Future Improvements
-- Integration with real-time data sources
-- Predictive analytics (Attrition prediction)
-- Advanced dashboards using Tableau Server
+## 💡 Future Enhancements
+- Predictive analytics for employee attrition
+- Integration with real-time HR systems
+- Advanced KPI tracking dashboards
 
 ---
 
-
-⭐ If you found this project useful, consider giving it a star!
